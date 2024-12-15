@@ -1,0 +1,125 @@
+﻿
+
+QWidget#m_TitleBar {
+	background-color: rgb(102, 183, 255);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+QWidget#m_wid_CentralWidget {
+	background-color: rgb(255, 255, 255);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+QFrame#CustomWindowFrame {
+	/*background-color: rgb(255, 0, 255);*/
+	/*border:none;*/
+}
+
+QLabel#m_label_TitleIcon {
+	border-image: url(./CustomWindowFrame.ico);
+	min-width: 25px;
+	min-height: 25px;
+}
+
+QLineEdit#m_ledit_Search {
+	background-color: rgb(73, 140, 213);
+	color: rgb(238, 211, 211);
+	min-width: 250px;
+	min-height: 25px;
+	border-radius: 8px;
+}
+QAction#m_act_Search {/*未生效，需要在代码中设置*/
+	border-image: url(:/image/titleBar/search.png);
+	width: 13px;
+	height: 12px;
+}
+
+QPushButton#m_pbtn_Skin {
+	background: transparent;
+	border-image: url(:/image/titleBar/skin.png);
+	width: 16px;
+	height: 14px;
+}
+QPushButton:hover#m_pbtn_Skin {
+	border-image: url(:/image/titleBar/skin_hover.png);
+}
+
+QPushButton#m_pbtn_Email {
+	background: transparent;
+	border-image: url(:/image/titleBar/mail.png);
+	width: 16px;
+	height: 12px;
+}
+QPushButton:hover#m_pbtn_Email {
+	border-image: url(:/image/titleBar/mail_hover.png);
+}
+
+QPushButton#m_pbtn_Setting {
+	background: transparent;
+	border-image: url(:/image/titleBar/set.png);
+	width: 15px;
+	height: 16px;
+}
+QPushButton:hover#m_pbtn_Setting {
+	border-image: url(:/image/titleBar/set_hover.png);
+}
+
+
+QPushButton#m_pbtn_UserIcon {
+	background: transparent;
+	border-image: url(:/image/titleBar/userIcon.png);
+	width: 40px;
+	height: 32px;
+}
+
+QPushButton#m_pbtn_UserName {
+	background: transparent;
+	color: rgb(238,238,238);
+	border-style: none;
+}
+
+QLabel#m_label_Split {
+	image: url(:/image/titleBar/line.png); /*使用image不会伸缩图片*/
+}
+
+QPushButton#m_pbtn_Hide {
+	background: transparent;
+	border-image: url(:/image/titleBar/mini.png);
+	width: 13px;
+	height: 11px;
+}
+QPushButton:hover#m_pbtn_Hide {
+	border-image: url(:/image/titleBar/mini_hover.png);
+}
+
+QPushButton#m_pbtn_Minimum {
+	background: transparent;
+	border-image: url(:/image/titleBar/minimum.png);
+	width: 14px;
+	height: 18px;
+}
+QPushButton:hover#m_pbtn_Minimum {
+	border-image: url(:/image/titleBar/minimum_hover.png);
+}
+
+QPushButton#m_pbtn_Maximum {
+	background: transparent;
+	border-image: url(:/image/titleBar/maximum.png);
+	width: 14px;
+	height: 11px;
+}
+QPushButton:hover#m_pbtn_Maximum {
+	border-image: url(:/image/titleBar/maximum_hover.png);
+}
+
+QPushButton#m_pbtn_CloseWid {
+	background: transparent;
+	border-image: url(:/image/titleBar/close.png);
+	width: 12px;
+	height: 11px;
+}
+QPushButton:hover#m_pbtn_CloseWid {
+	border-image: url(:/image/titleBar/close_hover.png);
+}
