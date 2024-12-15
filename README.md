@@ -2,7 +2,6 @@
 
 一个基于QFrame类的自定义窗口框架；
 
-![image-20241215203003952](C:\Users\wangs\AppData\Roaming\Typora\typora-user-images\image-20241215203003952.png)
 ![image](https://github.com/user-attachments/assets/87b6e6b6-c629-4309-9f68-2cbc87415031)
 
 
